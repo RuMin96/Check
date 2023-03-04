@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 //#define PALINDROM
@@ -25,7 +25,7 @@ void main()
 #ifdef PALINDROM
 	int number;
 	int reverse = 0;
-	cout << "Ââåäèòå ÷èñëî"; cin >> number;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾"; cin >> number;
 	int buffer = number;
 	while (buffer)
 	{
@@ -37,11 +37,11 @@ void main()
 	cout << reverse << endl;
 	if (reverse == number)
 	{
-		cout << "Ïàëèíäðîì" << endl;
+		cout << "ÐŸÐ°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼" << endl;
 	}
 	else
 	{
-		cout << "Íå ïàëèíäðîì" << endl;
+		cout << "ÐÐµ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼" << endl;
 	}
 #endif
 
@@ -50,18 +50,18 @@ void main()
 	int order;
 	int first_part;
 	int second_part;
-	cout << "Ââåäèòå âàø ñ÷àñòëèâûé áèëåò"; cin >> order;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ð°Ñˆ ÑÑ‡Ð°ÑÑ‚Ð»Ð¸Ð²Ñ‹Ð¹ Ð±Ð¸Ð»ÐµÑ‚"; cin >> order;
 	first_part = order / 1000;
 	second_part = order % 1000;
 	cout << first_part << endl;
 	cout << second_part << endl;
 	if (second_part = first_part)
 	{
-		cout << "Ó âàñ ñ÷àñòëèâûé áèëåò" << endl;
+		cout << "Ð£ Ð²Ð°Ñ ÑÑ‡Ð°ÑÑ‚Ð»Ð¸Ð²Ñ‹Ð¹ Ð±Ð¸Ð»ÐµÑ‚" << endl;
 	}
 	else
 	{
-		cout << "Ó âàñ íå ñ÷àñëèâûé áèëåò" << endl;
+		cout << "Ð£ Ð²Ð°Ñ Ð½Ðµ ÑÑ‡Ð°ÑÐ»Ð¸Ð²Ñ‹Ð¹ Ð±Ð¸Ð»ÐµÑ‚" << endl;
 	}
 #endif
 
@@ -74,33 +74,33 @@ void main()
 
 		if (key == 'w'||key=='W'||key==UP_ARROW)
 		{
-			cout << "Âïåðåä" << endl;
+			cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
 		}
 		else if (key == 's'||key=='S'||key==DOWN_ARROW)
 		{
-			cout << "Íàçàä" << endl;
+			cout << "ÐÐ°Ð·Ð°Ð´" << endl;
 
 		}
 		else if (key == 'a'||key=='A'||key==LEFT_ARROW)
 		{
-			cout << "Âëåâî" << endl;
+			cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 		}
 		else if (key == 'd'||key=='D'||key==RIGHT_ARROW)
 		{
-			cout << "Âïðàâî" << endl;
+			cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
 		}
 		else if (key == 32)
 		{
-			cout << "Ïðûæîê" << endl;
+			cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
 		}
 		else if (key == 13)
 		{
-			cout << "Îãîíü" << endl;
+			cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
 		}
 		else
 		{
 			if(key !=-32)
-				cout << "ÎØÈÁÊÀ" << endl;
+				cout << "ÐžÐ¨Ð˜Ð‘ÐšÐ" << endl;
 		}
 	} while ((int)key != 27);
 #endif
@@ -109,16 +109,16 @@ void main()
 	key = _getch();
 	switch (key)
 	{
-	case 'w':cout << "Âïåðåä" << endl; break;
-	case 'W':cout << "Âïåðåä" << endl; break;
-	case 's':cout << "Íàçàä" << endl; break;
-	case 'S':cout << "Íàçàä" << endl; break;
-	case 'a':cout << "Âëåâî" << endl; break;
-	case 'A':cout << "Âëåâî" << endl; break;
-	case 'd':cout << "Âïðàâî" << endl; break;
-	case 'D':cout << "Âïðàâî" << endl; break;
-	case ENTER:cout << "Îãîíü" << endl; break;
-	case ' ':cout << "Ïðûæîê" << endl; break;
+	case 'w':cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break;
+	case 'W':cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break;
+	case 's':cout << "ÐÐ°Ð·Ð°Ð´" << endl; break;
+	case 'S':cout << "ÐÐ°Ð·Ð°Ð´" << endl; break;
+	case 'a':cout << "Ð’Ð»ÐµÐ²Ð¾" << endl; break;
+	case 'A':cout << "Ð’Ð»ÐµÐ²Ð¾" << endl; break;
+	case 'd':cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+	case 'D':cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+	case ENTER:cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl; break;
+	case ' ':cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl; break;
 	default:cout << "Error" << endl;
 	}
 #endif
